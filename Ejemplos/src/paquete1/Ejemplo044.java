@@ -30,7 +30,7 @@ public class Ejemplo044 {
                 suma = suma + valor;
                 acumulador = String.format("%sSubíndice o Índice %d, "
                         + "con valor %d\n",
-                        acumulador, i, valor);
+                        acumulador, i, valor    );
             }
         }
         acumulador = String.format("%sLa suma total es: %d\n",
