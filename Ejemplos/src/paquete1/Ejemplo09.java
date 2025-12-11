@@ -32,7 +32,8 @@ public class Ejemplo09 {
         for (int i = 0; i < tamanio; i++) { // estudiantes.length 
             mensajeFinal = String.format("%sEstudiante:%s - promedio: %.4f\n", 
                     mensajeFinal,
-                    estudiantes[i].toUpperCase(),
+                    estudiantes[i].toUpperCase(), 
+                    //Esta aplicando toUpperCase a una posicion del arreglo                    
                     promedios[i]);
         }
         
