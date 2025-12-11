@@ -13,7 +13,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo11 {
+public class Ejemplo111 {
 
     /**
      * @param args the command line arguments
@@ -48,10 +48,12 @@ public class Ejemplo11 {
         for (int i = 0; i < promediosMateria1.length; i++) { 
             
             mensajeFinal = String.format("%sEstudiante:%s - promedio final: "
-                    + "%.4f\n", 
+                    + "%.4f"
+                    + "( m1:%.1f | m2:%.1f )\n", 
                     mensajeFinal,
-                    estudiantes[i],
-                    promediosFinales[i]);
+                    estudiantes[i].toLowerCase(),
+                    promediosFinales[i],
+                    promediosMateria1[i],promediosMateria2[i]);
         }
         
         System.out.printf("%s\n", mensajeFinal);
